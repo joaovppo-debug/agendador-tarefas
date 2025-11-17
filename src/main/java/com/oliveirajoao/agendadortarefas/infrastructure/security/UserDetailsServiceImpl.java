@@ -1,16 +1,11 @@
 package com.oliveirajoao.agendadortarefas.infrastructure.security;
 
 
-
-import com.joliveira.usuario.infrastructure.entity.Usuario;
-import com.joliveira.usuario.infrastructure.repository.UsuarioRepository;
 import com.oliveirajoao.agendadortarefas.business.dto.UsuarioDTO;
 import com.oliveirajoao.agendadortarefas.infrastructure.client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
